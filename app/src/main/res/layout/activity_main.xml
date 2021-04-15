@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1mm"
+        android:text="@string/tvTitulo"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnIngresos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="Ingresos"
+        android:padding="1mm"
+        android:text="Ingresos" />
+
+    <Button
+        android:id="@+id/btnGastos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="Gastos"
+        android:padding="3sp"
+        android:text="Gastos" />
+
+    <Button
+        android:id="@+id/btnTipsFinan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="TipsFinan"
+        android:padding="1mm"
+        android:text="Tips Financieros" />
+
+    <Button
+        android:id="@+id/btnCalendario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="Calendario"
+        android:padding="1mm"
+        android:text="Calendario" />
+
+
+</LinearLayout>
